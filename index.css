@@ -1,0 +1,79 @@
+* {margin: 0; padding: 0; list-style: none; font-family: 'Raleway', sans-serif;}
+#wrap {padding: 30px;}
+cite{padding-right: 5px;}
+
+
+.Top {display: block; position: relative; margin: auto; height: 100%;}
+.Top .logotop h1 {display: inline-block; margin: 40px 10px; font-size: 3em; color: #3C0000;}
+
+
+.logotop input{position: relative; float: right; margin-top: 44px; margin-right: 80px; height: 20px; font-size: 12px; background-color: #F5D0C5; border: none;}
+.logotop button{position: absolute; top: 45px; right: 50px; width: 20px; height: 20px; text-indent: -9999px; background-image: url(../image/search.png); background-size: 100%; cursor: pointer; border: none;}
+.topMenu{margin: auto; height: 300px;}
+
+.topMenu .item {float: left; width: 15.5%; height: 40px; background-color: #fff;}
+.topMenu .item .tit {text-align: center; line-height: 40px; cursor: pointer; text-transform: uppercase;  font-size: 16px; color: #050609;}
+.topMenu .item .tit:hover{color: #3C0000; background-color: #fff;}
+.topMenu .item ul {overflow: hidden; background-color: #fff; transition: height 0.3s; visibility: hidden;}
+.topMenu .item .tit:hover ul{visibility: visible;}
+.topMenu .item:hover ul {height: 250px; background-color: #fff; display: block; }
+
+
+
+.topMenu .item ul li {line-height: 29px; color: #D69F7E; text-align: center; cursor: pointer;}
+.topMenu .item ul li:hover {color: #774936;}
+.topMenu .item ul li+li {border-top: 1px dashed #ddd;}
+
+
+.book {margin-top: 65px; padding: 20px;}
+.book ol{display: block; height: 50px; margin-top: 15px; }
+.book ol li{display: block; width: 100px; height: 50px; float: left;}
+.book ol li a{float: left; display: block; cursor: pointer; text-indent: -9999px; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center;}
+.book ol li:nth-child(1) a{background-image: url(../image/amazon.png); background-size: 100%;}
+.book ol li:nth-child(2) a{background-image: url(../image/indigo.png); background-size: 100%;}
+.book ol li:nth-child(3) a{background-image: url(../image/bmv.jpg); background-size: 100%;}
+.book ol li+li{padding-left: 20px;}
+
+.contents{display: block; position: relative; margin: auto; height: 100%;}
+.contents figure{display: block; width: 100%; padding-bottom: 50px;}
+.contents figure time{font-size: 8px;}
+.contents .article{float: left; width: 90%;}
+.contents .article .img3{width: 100%;}
+.contents h2{display: block; margin: 30px 30px; font-size: 2em; text-decoration: underline wavy #F5D0C5;}
+.contents .article p{line-height: 170%; margin-bottom: 50px;}
+.contents .article p+p{margin-top: 12px;}
+.contents .article p cite{padding-right: 5px;}
+.contents .article p .img1{float: right; margin: 25px; width: 60%}
+.contents .article p .img2{float: left; margin: 25px; width: 60%}
+.contents .article blockquote{display: block; float: right; margin: 20px 40px;}
+.contents .article code{display: block; margin: 20px 40px;}
+.contents .article figcaption{color: #D69F7E;}
+.contents .article samp{color: #F5D0C5;}
+
+.contents .side{position: fixed; width: 9%; right: 20px;}
+.contents .book{display: block; clear: both;}}
+
+.contents .comment{display: block; margin: 40px 60px;}
+.contents .comment h4{margin-bottom: 15px;}
+.contents .comment button{position: absolute; margin-left: 10px; margin-top: 22px; width: 65px; height: 20px; cursor: pointer; color: #774936;}
+
+
+
+.tag{display: block; margin: 40px 10px; height: 40px;}
+.tag li{display: block; float: left;}
+.tag li:nth-child(1){padding-top: 10px;}
+.tag li+li{margin-left: 25px;}
+.tag .label{color: #774936; padding: 7px;}
+.tag .insta{background-color: #D69F7E;}
+
+
+.line{display: block; border-top: 1px solid black; margin-bottom: 100px; padding-top: 15px; padding-left: 30%; font-size: 1.2em;}
+
+
+
+footer {border-top: 2px solid #ddd; color: #555; font-size: 12px;}
+footer nav {text-align: center;}
+footer nav a {padding: 0 35px; line-height: 50px; text-decoration: none; color: black;}
+footer nav a:hover{color: #774936;}
+footer nav a+a {border-left: 1px solid #888;}
+footer p{text-align: center; margin-bottom: 15px;}
