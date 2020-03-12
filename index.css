@@ -1,6 +1,6 @@
 * {margin: 0; padding: 0; list-style: none; font-family: 'Raleway', sans-serif;}
 #wrap {padding: 30px;}
-cite{padding-right: 5px;}
+a{cursor: pointer;}
 
 
 .Top {display: block; position: relative; margin: auto; height: 100%;}
@@ -8,10 +8,10 @@ cite{padding-right: 5px;}
 
 
 .logotop input{position: relative; float: right; margin-top: 44px; margin-right: 80px; height: 20px; font-size: 12px; background-color: #F5D0C5; border: none;}
-.logotop button{position: absolute; top: 45px; right: 50px; width: 20px; height: 20px; text-indent: -9999px; background-image: url(../image/search.png); background-size: 100%; cursor: pointer; border: none;}
+.logotop button{position: absolute; top: 45px; right: 50px; width: 20px; height: 20px; text-indent: -9999px; background-image: url(/img/search.png); background-size: 100%; cursor: pointer; border: none;}
 .topMenu{margin: auto; height: 300px;}
 
-.topMenu .item {float: left; width: 15.5%; height: 40px; background-color: #fff;}
+.topMenu .item {float: left; width: 15.5%; height: 40px; background-color: #fff; text-align: center;}
 .topMenu .item .tit {text-align: center; line-height: 40px; cursor: pointer; text-transform: uppercase;  font-size: 16px; color: #050609;}
 .topMenu .item .tit:hover{color: #3C0000; background-color: #fff;}
 .topMenu .item ul {overflow: hidden; background-color: #fff; transition: height 0.3s; visibility: hidden;}
@@ -25,35 +25,23 @@ cite{padding-right: 5px;}
 .topMenu .item ul li+li {border-top: 1px dashed #ddd;}
 
 
-.book {margin-top: 65px; padding: 20px;}
-.book ol{display: block; height: 50px; margin-top: 15px; }
-.book ol li{display: block; width: 100px; height: 50px; float: left;}
-.book ol li a{float: left; display: block; cursor: pointer; text-indent: -9999px; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center;}
-.book ol li:nth-child(1) a{background-image: url(../image/amazon.png); background-size: 100%;}
-.book ol li:nth-child(2) a{background-image: url(../image/indigo.png); background-size: 100%;}
-.book ol li:nth-child(3) a{background-image: url(../image/bmv.jpg); background-size: 100%;}
-.book ol li+li{padding-left: 20px;}
-
 .contents{display: block; position: relative; margin: auto; height: 100%;}
-.contents figure{display: block; width: 100%; padding-bottom: 50px;}
+.contents figure{display: block; width: 100%; height: 300px; padding-bottom: 50px; background-image: url(/img/main.jpg); background-position-y: 45%; background-size: cover;}
 .contents figure time{font-size: 8px;}
-.contents .article{float: left; width: 90%;}
+.contents .article{float: left; width: 85%;}
 .contents .article .img3{width: 100%;}
 .contents h2{display: block; margin: 30px 30px; font-size: 2em; text-decoration: underline wavy #F5D0C5;}
-.contents .article p{line-height: 170%; margin-bottom: 50px;}
-.contents .article p+p{margin-top: 12px;}
-.contents .article p cite{padding-right: 5px;}
-.contents .article p .img1{float: right; margin: 25px; width: 60%}
-.contents .article p .img2{float: left; margin: 25px; width: 60%}
-.contents .article blockquote{display: block; float: right; margin: 20px 40px;}
-.contents .article code{display: block; margin: 20px 40px;}
-.contents .article figcaption{color: #D69F7E;}
-.contents .article samp{color: #F5D0C5;}
+.contents .article p{line-height: 170%; margin: 50px 20px;}
+.contents .article article h5{padding-top: 40px; font-size: 1.5em;}
 
-.contents .side{position: fixed; width: 9%; right: 20px;}
-.contents .book{display: block; clear: both;}}
 
-.contents .comment{display: block; margin: 40px 60px;}
+.contents .side{position: fixed; width: 12%; right: 20px;}
+.contents .side ul h4{font-size: 1.2em; padding-bottom: 20px;}
+.contents .side ul li{font-size: 0.7em; padding: 5px;}
+.contents .side ul li:hover{background-color: darksalmon;}
+.contents .side ul li a
+
+.contents .comment{margin: 40px 60px; clear: both;}
 .contents .comment h4{margin-bottom: 15px;}
 .contents .comment button{position: absolute; margin-left: 10px; margin-top: 22px; width: 65px; height: 20px; cursor: pointer; color: #774936;}
 
