@@ -1,22 +1,23 @@
 * {margin: 0; padding: 0; list-style: none; font-family: 'Raleway', sans-serif;}
 #wrap {padding: 30px;}
-a{cursor: pointer;}
+a{cursor: pointer; text-decoration: none; color: black;}
 
 
 .Top {display: block; position: relative; margin: auto; height: 100%;}
 .Top .logotop h1 {display: inline-block; margin: 40px 10px; font-size: 3em; color: #3C0000;}
 
 
-.logotop input{position: relative; float: right; margin-top: 44px; margin-right: 80px; height: 20px; font-size: 12px; background-color: #F5D0C5; border: none;}
-.logotop button{position: absolute; top: 45px; right: 50px; width: 20px; height: 20px; text-indent: -9999px; background-image: url(/img/search.png); background-size: 100%; cursor: pointer; border: none;}
-.topMenu{margin: auto; height: 300px;}
+.logotop input{position: absolute; right: 11%; width: 200px; height: 30px; padding: 5px; font-size: 12px; background-color: #F5D0C5; border: none; transition: width 1.2s;}
+.logotop input:hover{width: 400px;}
+.logotop button{position: absolute; right: 8%; width: 30px; height: 30px; text-indent: -9999px; background-image: url(/img/search.png); background-size: 100%; cursor: pointer; border: none;} 
+.topMenu{margin: auto; height: 100px;}
 
-.topMenu .item {float: left; width: 15.5%; height: 40px; background-color: #fff; text-align: center;}
+.topMenu .item {float: left; position: relative; width: 15.5%; height: 40px; background-color: #fff; text-align: center;}
 .topMenu .item .tit {text-align: center; line-height: 40px; cursor: pointer; text-transform: uppercase;  font-size: 16px; color: #050609;}
 .topMenu .item .tit:hover{color: #3C0000; background-color: #fff;}
-.topMenu .item ul {overflow: hidden; background-color: #fff; transition: height 0.3s; visibility: hidden;}
-.topMenu .item .tit:hover ul{visibility: visible;}
-.topMenu .item:hover ul {height: 250px; background-color: #fff; display: block; }
+.topMenu .item ul {position: absolute; overflow: hidden; width: 100%; background-color: #fff; visibility: hidden; z-index: 10; }
+.topMenu .item:hover ul{visibility: visible;}
+.topMenu .item:hover ul {background-color: #fff; display: block; }
 
 
 
@@ -27,7 +28,6 @@ a{cursor: pointer;}
 
 .contents{display: block; position: relative; margin: auto; height: 100%;}
 .contents figure{display: block; width: 100%; height: 300px; padding-bottom: 50px; background-image: url(/img/main.jpg); background-position-y: 45%; background-size: cover;}
-.contents figure time{font-size: 8px;}
 .contents .article{float: left; width: 85%;}
 .contents .article .img3{width: 100%;}
 .contents h2{display: block; margin: 30px 30px; font-size: 2em; text-decoration: underline wavy #F5D0C5;}
@@ -35,24 +35,29 @@ a{cursor: pointer;}
 .contents .article article h5{padding-top: 40px; font-size: 1.5em;}
 
 
-.contents .side{position: fixed; width: 12%; right: 20px;}
+.contents .side{position: fixed; width: 12%; right: 20px; padding: 15px; background-color: lightgrey;}
 .contents .side ul h4{font-size: 1.2em; padding-bottom: 20px;}
 .contents .side ul li{font-size: 0.7em; padding: 5px;}
-.contents .side ul li:hover{background-color: darksalmon;}
+.contents .side ul li:hover{background-color: #F5D0C5;}
 .contents .side ul li a
 
-.contents .comment{margin: 40px 60px; clear: both;}
-.contents .comment h4{margin-bottom: 15px;}
-.contents .comment button{position: absolute; margin-left: 10px; margin-top: 22px; width: 65px; height: 20px; cursor: pointer; color: #774936;}
+.contents .review button{position: absolute; margin-left: 10px; margin-top: 22px; width: 65px; height: 20px; cursor: pointer; color: #774936;}
 
+.contents .carousel{height: 200px;}
+.contents .carousel h5{padding-bottom: 20px;}
+.contents .carousel ul{position: relative; width: 200px;}
+.contents .carousel ul li{width: 200px; height: 120px; position: absolute; opacity: 0;}
+.contents .carousel ul .show{opacity: 1;}
+.contents .carousel ul li a{width: 100%; height: 100%;}
 
+.contents h4{padding-bottom: 20px;}
+.contents .morename{font-size: 1.2em; padding: 50px 0 20px 0; width: 85%; border-top: 1px solid grey;}
+.contents .more{display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px; width: 85%; padding: 20px; background-color: lightgrey; margin-bottom: 50px;}
+.contents .more li{padding: 15px; background-color: #fff;}
+.contents .more li:hover{background-color: #F5D0C5;}
+.contents .more li a{border-bottom: 1px solid grey;}
+.contents .more li a div img{padding-bottom: 15px; width: 100%;}
 
-.tag{display: block; margin: 40px 10px; height: 40px;}
-.tag li{display: block; float: left;}
-.tag li:nth-child(1){padding-top: 10px;}
-.tag li+li{margin-left: 25px;}
-.tag .label{color: #774936; padding: 7px;}
-.tag .insta{background-color: #D69F7E;}
 
 
 .line{display: block; border-top: 1px solid black; margin-bottom: 100px; padding-top: 15px; padding-left: 30%; font-size: 1.2em;}
