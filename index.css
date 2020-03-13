@@ -9,7 +9,7 @@ a{cursor: pointer; text-decoration: none; color: black;}
 
 .logotop input{position: absolute; right: 11%; width: 200px; height: 30px; padding: 5px; font-size: 12px; background-color: #F5D0C5; border: none; transition: width 1.2s;}
 .logotop input:hover{width: 400px;}
-.logotop button{position: absolute; right: 8%; width: 30px; height: 30px; text-indent: -9999px; background-image: url(/img/search.png); background-size: 100%; cursor: pointer; border: none;} 
+.logotop button{position: absolute; right: 8%; width: 30px; height: 30px; text-indent: -9999px; background-image: url(img/search.png); background-size: 100%; cursor: pointer; border: none;} 
 .topMenu{margin: auto; height: 100px;}
 
 .topMenu .item {float: left; position: relative; width: 15.5%; height: 40px; background-color: #fff; text-align: center;}
@@ -27,7 +27,7 @@ a{cursor: pointer; text-decoration: none; color: black;}
 
 
 .contents{display: block; position: relative; margin: auto; height: 100%;}
-.contents figure{display: block; width: 100%; height: 300px; padding-bottom: 50px; background-image: url(/img/main.jpg); background-position-y: 45%; background-size: cover;}
+.contents figure{display: block; width: 100%; height: 300px; padding-bottom: 50px; background-image: url(img/main.jpg); background-position-y: 45%; background-size: cover;}
 .contents .article{float: left; width: 85%;}
 .contents .article .img3{width: 100%;}
 .contents h2{display: block; margin: 30px 30px; font-size: 2em; text-decoration: underline wavy #F5D0C5;}
