@@ -104,7 +104,7 @@ window.onload = function(){
 
     
 
-// 3. Let's make state-of-the-interface
+// 3. Let's make Infinitely load content 
 
 let haveHitBottom = false;
 
@@ -116,7 +116,7 @@ let theStateOfTheInterface = (event)=>{
     let allSections = ''
     
     if(winY >= maxY){
-        document.querySelector('.contents').innerHTML += `
+        document.querySelector('.more').innerHTML += `
             <li><a href="">
 				<div><img src="img/more1.jpg" alt=""></div>
 				<div><span>Don't judge there wines at the LCBO by their labels</span></div>
@@ -126,7 +126,7 @@ let theStateOfTheInterface = (event)=>{
     };
 
     
-// 4. Let's make Infinitely load content
+// 4. Let's make state-of-the-interface
     
 document.querySelectorAll('article').forEach(($sec) => {
     

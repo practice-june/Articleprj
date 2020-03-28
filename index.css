@@ -3,7 +3,7 @@
     --white: #ffffff;
     --black: #000000;
     --lightgrey: #b0b0b0;
-    --hover: #3C0000;
+    --hover: #774936;
     --second: #F5D0C5;
 }
 
@@ -13,6 +13,7 @@ a{cursor: pointer; text-decoration: none; color: var(--black);}
 svg{cursor: pointer;}
 .round{border-radius: 7px;}
 .seen{font-weight: bold; background-color: var(--white);}
+.extra{display: grid;}
 
 .Top {display: block; position: relative; margin: auto; height: 100%;}
 .Top .logotop h1 {display: inline-block; margin: 40px 10px; font-size: 3em; color: var(--hover);}
@@ -26,16 +27,13 @@ svg{cursor: pointer;}
 
 .topMenu{margin: auto; height: 135px;}
 .topMenu .item {float: left; position: relative; width: 15.5%; height: 40px; background-color: var(--white); text-align: center;}
-.topMenu .item .tit {text-align: center; line-height: 40px; cursor: pointer; text-transform: uppercase;  font-size: 16px; color: #050609;}
+.topMenu .item .tit {text-align: center; line-height: 40px; cursor: pointer; text-transform: uppercase;  font-size: 16px; color: var(--black);}
 .topMenu .item .tit:hover{color: var(--hover); background-color: var(--white);}
 .topMenu .item ul {position: absolute; overflow: hidden; width: 100%; background-color: var(--white); visibility: hidden; z-index: 10; }
 .topMenu .item:hover ul{visibility: visible;}
 .topMenu .item:hover ul {background-color: var(--white); display: block; }
-
-
-
 .topMenu .item ul li {line-height: 29px; color: var(--main); text-align: center; cursor: pointer;}
-.topMenu .item ul li:hover {color: #774936;}
+.topMenu .item ul li:hover {color: var(--hover);}
 .topMenu .item ul li+li {border-top: 1px dashed var(--lightgrey);}
 
 
@@ -63,10 +61,10 @@ svg{cursor: pointer;}
 .contents .etc .review textarea{width: 100%;}
 .contents .etc .review button{margin-left: 80%; margin-top: 12px; cursor: pointer; color: var(--lightgrey); padding: 5px; font-size: 0.7em;}
 
-.carousel-container{width: 60%; margin: auto; overflow: hidden; padding-top: 50px;}
+.carousel-container{width: 400px; margin: auto; overflow: hidden; padding-top: 50px;}
 .carousel-slide{display: flex; width: 100%;}
 .carousel-slide img{width: 100%; object-fit: cover;}
-.carousel-container button{position: relative; bottom: 135px; opacity: 0.7; text-indent: -9999px; background-color: transparent;}
+.carousel-container button{position: relative; bottom: 170px; opacity: 0.7; text-indent: -9999px; background-color: transparent;}
 #prevBtn{float: left; width: 0; height: 0; border-top: 30px solid transparent;
     border-bottom: 30px solid transparent; border-right: 30px solid var(--main);}
 #nextBtn{float: right; width: 0; height: 0; border-top: 30px solid transparent;
@@ -89,7 +87,7 @@ svg{cursor: pointer;}
 footer {border-top: 2px solid #ddd; color: var(--lightgrey)0; font-size: 12px;}
 footer nav {text-align: center;}
 footer nav a {padding: 0 35px; line-height: 50px; text-decoration: none; color: black;}
-footer nav a:hover{color: #774936;}
+footer nav a:hover{color: var(--hover);}
 footer nav a+a {border-left: 1px solid var(--lightgrey);}
 footer p{text-align: center; margin-bottom: 15px;}
 
