@@ -19,6 +19,6 @@ Honestly in this project, article content, titles and images are not match. It o
 ## What function we make with JS?
 - scroll-spy to indicate where is user are. Also want to make when user clicks the name in sticky side menu can't make it to go to that location. Can it solved with [scrollTo]?
 - Carousel image related this article. When user click the arrow it show another image continually. Both arrow buttons are working.
-- Infinitely load content. But can't make every new article. Need search. Also to load more article, user need scroll slightly go up agian then down.
+- Infinitely load content. But can't make every new article. Need search.
 - Make darkmode and Daymode to improve the user experience. Sun and moon shape also change when it clicked, and font color and border roundneess also little be changed.
 
