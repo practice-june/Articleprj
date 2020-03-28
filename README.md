@@ -2,19 +2,19 @@
 
 
 ## Research
-Reference site : thestar.com
+Reference site : thestar.com <br>
 Honestly in this project, article content, titles and images are not match. It only for lenght of article and fill. 
 
 ## Code
- Make a side sticky side menu.
- When hover on search bar, make transtition.
- Make some portion in article.
+ 1. Make a side sticky side menu.
+ 2. When hover on search bar, make transtition.
+ 3. Make some portion in article.
 
 ## User interface
- Point color : #F5D0C5
- Light grey : #b0b0b0
- Hover color : #3C0000
- Second color : #F5D0C5
+ - Point color : #F5D0C5
+ - Light grey : #b0b0b0
+ - Hover color : #3C0000
+ - Second color : #F5D0C5
 
 ## What function we make with JS?
 - scroll-spy to indicate where is user are. Also want to make when user clicks the name in sticky side menu can't make it to go to that location. Can it solved with [scrollTo]?
