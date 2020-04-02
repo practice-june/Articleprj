@@ -1,4 +1,4 @@
-// alert("check-list for Rocco");
+alert("check-list for Rocco! 1. change size searchbar 2.darkmode button 3. table contents menu 4. carousel images 5. unlimited loading new article --> is working!");
 
 
 // 1. Let's make Darkmode & Daymode button!
