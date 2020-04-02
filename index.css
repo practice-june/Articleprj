@@ -43,7 +43,7 @@ svg{cursor: pointer;}
 .contents h2{display: block; margin: 30px 30px; font-size: 2em; text-decoration: underline wavy var(--second);}
 .contents .article article{line-height: 170%; margin: 50px 20px;}
 .contents .article article h5{padding: 40px 0; font-size: 1.5em;}
-.contents .article img{padding-top: 20px;}
+.contents .article img{padding-top: 20px; display: block;}
 .contents .article img:nth-child(2n+1){padding-left: 10%;}
 
 
