@@ -123,8 +123,7 @@ let theStateOfTheInterface = (event)=>{
 			</a></li>
             `
             haveHitBottom = true;
-    };
-
+    }
     
 // 4. Let's make state-of-the-interface
     
@@ -148,6 +147,9 @@ document.querySelectorAll('article').forEach(($sec) => {
 
             
 }
+
+// if (window.pageYOffset(7550)){document.querySelector('.side').style.display="none"}
+
      
     window.addEventListener('load', theStateOfTheInterface)
     window.addEventListener('scroll', theStateOfTheInterface)
