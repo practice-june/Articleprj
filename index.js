@@ -147,7 +147,15 @@ document.querySelectorAll('article').forEach(($sec) => {
 
             
 }
-
+window.addEventListener('scroll', ()=>{
+    let scrollable = document.documentElement.scrollHeight - window.innerHeight;
+    let scrolled = window.scrollY;
+    if(Math.ceil(scrolled)===scrollable){
+        document.querySelector('.side').style.display="none"
+    }else{
+        document.querySelector('.side').style.display="block"
+    }
+});
 // if (window.pageYOffset(7550)){document.querySelector('.side').style.display="none"}
 
      
